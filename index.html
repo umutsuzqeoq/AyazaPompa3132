@@ -21,6 +21,20 @@
             color: #38bdf8;
             font-size: 42px;
         }
+        
+h1 {
+    animation: neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 5px #38bdf8;
+    }
+    to {
+        text-shadow: 0 0 25px #38bdf8, 0 0 45px #a855f7;
+    }
+}
+
 
         p {
             font-size: 20px;
