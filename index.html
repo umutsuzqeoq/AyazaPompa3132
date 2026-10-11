@@ -68,8 +68,11 @@ button:hover {
 
     <script>
         let sayac = 0;
+       let ahhh = new Audio("uh-roblox-death-sound.mp3"); 
        function ayazagirme() {
         sayac = sayac + 1;
+       ahhh.currentTime = 0;
+ahhh.play(); 
         document.getElementById("yazi").textContent = "ayaza pompa calisiyor!";
         document.getElementById("yazi").textContent = "ayaza arkadan girme sayaci: " + sayac;
        }
